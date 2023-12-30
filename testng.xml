@@ -5,7 +5,8 @@
 	<test name="FREE CRM Test" annotations="JDK"
 		preserve-order="true">
 		<classes>
-			<class name="parallel.ParallelRun" />
+		<!--	<class name="parallel.ParallelRun" />   -->
+			<class name="parallelGrid.ParallelRunGrid" />
 		</classes>
 	</test>
 </suite>
