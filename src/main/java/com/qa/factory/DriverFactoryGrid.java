@@ -37,7 +37,7 @@ public class DriverFactoryGrid {
 //			tlDriver.set(new ChromeDriver());
 			
 			DesiredCapabilities cap= DesiredCapabilities.chrome();
-			URL url=new URL("http://localhost:4444/wd/hub");
+			URL url=new URL("http://localhost:4444");
 			tlDriver.set(new RemoteWebDriver(url,cap));
 			
 		} else if (browser.equals("firefox")) {
@@ -45,14 +45,14 @@ public class DriverFactoryGrid {
 //			tlDriver.set(new FirefoxDriver());
 			
 			DesiredCapabilities cap= DesiredCapabilities.firefox();
-			URL url=new URL("http://localhost:4444/wd/hub");
+			URL url=new URL("http://localhost:4444");
 			tlDriver.set(new RemoteWebDriver(url,cap));
 			
 		} else if (browser.equals("safari")) {
 //			tlDriver.set(new SafariDriver());
 			
 			DesiredCapabilities cap= DesiredCapabilities.edge();
-			URL url=new URL("http://localhost:4444/wd/hub");
+			URL url=new URL("http://localhost:4444");
 			tlDriver.set(new RemoteWebDriver(url,cap));
 			
 		} else {

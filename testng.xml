@@ -6,6 +6,7 @@
 		preserve-order="true">
 		<classes>
 		<!--	<class name="parallel.ParallelRun" />   -->
+		    <class name="parallelGrid.Setup_DockerGridTest" />
 			<class name="parallelGrid.ParallelRunGrid" />
 		</classes>
 	</test>
