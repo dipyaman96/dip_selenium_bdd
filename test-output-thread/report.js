@@ -1,51 +1,51 @@
 $(document).ready(function() {
 CucumberHTML.timelineItems.pushArray([
   {
-    "id": "6bd8ad55-33f4-4a3a-8129-fcd6d6544a84",
+    "id": "29358cd4-cba1-411c-b51c-e4721d35b528",
     "feature": "Login page feature",
     "scenario": "Login with correct credentials",
-    "start": 1704048526922,
-    "group": 28,
+    "start": 1705216475679,
+    "group": 29,
     "content": "",
     "tags": "",
-    "end": 1704048552277,
+    "end": 1705216493531,
     "className": "passed"
   },
   {
-    "id": "cd006680-9b45-413a-97db-292b36ae4824",
+    "id": "e1056297-d0e4-4bff-a764-310e05a9abbb",
     "feature": "Login page feature",
     "scenario": "Login page title",
-    "start": 1704048526931,
-    "group": 26,
-    "content": "",
-    "tags": "",
-    "end": 1704048558972,
-    "className": "passed"
-  },
-  {
-    "id": "3213d5a8-acda-478c-9a2c-c68693b9152a",
-    "feature": "Login page feature",
-    "scenario": "Forgot Password link",
-    "start": 1704048526532,
+    "start": 1705216475670,
     "group": 27,
     "content": "",
     "tags": "",
-    "end": 1704048565992,
+    "end": 1705216505348,
+    "className": "passed"
+  },
+  {
+    "id": "79282be9-5b04-492e-929c-c4358dca9285",
+    "feature": "Login page feature",
+    "scenario": "Forgot Password link",
+    "start": 1705216475520,
+    "group": 28,
+    "content": "",
+    "tags": "",
+    "end": 1705216499371,
     "className": "passed"
   }
 ]);
 CucumberHTML.timelineGroups.pushArray([
   {
-    "id": 26,
-    "content": "Thread[#26,TestNG-PoolService-0,5,main]"
-  },
-  {
     "id": 27,
-    "content": "Thread[#27,TestNG-PoolService-1,5,main]"
+    "content": "Thread[#27,TestNG-PoolService-0,5,main]"
   },
   {
     "id": 28,
-    "content": "Thread[#28,TestNG-PoolService-2,5,main]"
+    "content": "Thread[#28,TestNG-PoolService-1,5,main]"
+  },
+  {
+    "id": 29,
+    "content": "Thread[#29,TestNG-PoolService-2,5,main]"
   }
 ]);
 });
